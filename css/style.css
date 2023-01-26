@@ -1,0 +1,123 @@
+
+.mon_MAA{
+    color: #701414;
+    background:#999c85 ;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1px;
+    text-transform: uppercase;
+    margin-top: 17px;
+    margin-bottom: 2px;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.img{
+    height: 700px;
+    width: 100%;
+    background-image: url(../image/voiture1.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar{
+    height: 40px;
+    background: #d9d9d9;
+    box-shadow: 10px 4px 2px -2px #9e9f9f;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+
+nav ul li a:hover{
+    padding: 2px;
+    background: #9e9f9f;
+    border: 1px solid #9e9f9f;
+    border-radius: 10px;
+}
+.root{
+    height: 40px;
+    background: #9e9f9f;
+    width: 50%;
+    padding: 10px;
+}
+
+.recherche{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+i{
+    font-size: 20px;
+    padding: 5px;
+   
+}
+
+.section-infos{
+    height: 200px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.section-infos h1{
+    color: #2d2b5e;
+    font-size: 50px;
+}
+.section-infos h3{
+    color: black;
+    font-size: 20px;
+}
+.beneficier{
+    height: 250px;
+    width: 90%;
+    background:#9a9c84 ;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+.pouce{
+    background: white;
+    border-radius: 100%; 
+    width: 50%;   
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+
